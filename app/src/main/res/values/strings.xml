@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">yesude</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="msg_chance_that_your">Chance that your plant has Yellow Sugarcane Disease</string>
+  <string name="lbl_start">Start</string>
+  <string name="lbl_upload">Upload</string>
+  <string name="lbl_xx">XX%</string>
+</resources>
