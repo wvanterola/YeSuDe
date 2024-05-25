@@ -1,5 +1,8 @@
 package com.yesude.app.modules.resultspage.ui
 
+import android.content.Context
+import android.content.Intent
+import android.os.Bundle
 import androidx.activity.viewModels
 import com.yesude.app.R
 import com.yesude.app.appcomponents.base.BaseActivity
@@ -23,5 +26,11 @@ class ResultsPageActivity : BaseActivity<ActivityResultsPageBinding>(R.layout.ac
   companion object {
     const val TAG: String = "RESULTS_PAGE_ACTIVITY"
 
+
+    fun getIntent(context: Context, bundle: Bundle?): Intent {
+      val destIntent = Intent(context, ResultsPageActivity::class.java)
+      destIntent.putExtra("bundle", bundle)
+      return destIntent
+    }
   }
 }

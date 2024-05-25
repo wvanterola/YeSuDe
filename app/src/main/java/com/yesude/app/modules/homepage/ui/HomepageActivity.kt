@@ -16,7 +16,7 @@ import kotlin.Unit
 class HomepageActivity : BaseActivity<ActivityHomepageBinding>(R.layout.activity_homepage) {
   private val viewModel: HomepageVM by viewModels<HomepageVM>()
 
-  private val REQUEST_CODE_MAIN_PAGE_ACTIVITY: Int = 888
+  private val REQUEST_CODE_MAIN_PAGE_ACTIVITY: Int = 317
 
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
