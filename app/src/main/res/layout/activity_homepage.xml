@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="homepageVM" type="com.yesude.app.modules.homepage.data.viewmodel.HomepageVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameHomepage"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylegreen_900">
+        <ImageView android:id="@+id/imageHomepageOne"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_homepage_graphics}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_homepage_graphics"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnStart" android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_14pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_14pxv" android:singleLine="true"
+            android:text="@string/lbl_start" android:textAllCaps="false"
+            style="@style/btnSolidRounded" tools:text="@string/lbl_start"/>
+    </FrameLayout>
+</layout>
