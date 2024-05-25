@@ -16,7 +16,7 @@ import kotlin.Unit
 class MainPageActivity : BaseActivity<ActivityMainPageBinding>(R.layout.activity_main_page) {
   private val viewModel: MainPageVM by viewModels<MainPageVM>()
 
-  private val REQUEST_CODE_RESULTS_PAGE_ACTIVITY: Int = 820
+  private val REQUEST_CODE_RESULTS_PAGE_ACTIVITY: Int = 528
 
 
   override fun onInitialized(): Unit {
